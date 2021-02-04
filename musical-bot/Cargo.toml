@@ -2,9 +2,9 @@
 name = "musical-bot"
 version = "0.1.0"
 authors = ["TheK0tYaRa <alod123@mail.ua>"]
-description = " This is a Rust port of https://github.com/romenskiy2012/Musical_bot_6.0 "
+#description = " This is a Rust port of https://github.com/romenskiy2012/Musical_bot_6.0 "
 edition = "2018"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+tokio = "1.1.1"
+serenity = "0.10.2"
